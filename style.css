@@ -298,10 +298,14 @@ footer > a {
 
 
 .projects-blocks > .projects-blocks-text {
-  writing-mode: sideways-lr; /* Standard syntax */
-  -webkit-writing-mode: vertical-rl; /* For older WebKit browsers */
-  -moz-writing-mode: vertical-rl; /* Firefox support */
-  -ms-writing-mode: vertical-rl; /* Microsoft Edge */
+/* Стандартный синтаксис */
+writing-mode: vertical-lr; /* или vertical-lr для вертикального текста */
+
+/* Префиксы для поддержки устаревших браузеров */
+-webkit-writing-mode: vertical-lr;
+-moz-writing-mode: vertical-lr;
+-ms-writing-mode: vertical-lr;
+
   display: flex;
   justify-content: center;
   color: #ffffff;
@@ -315,7 +319,7 @@ footer > a {
 .projects-blocks > .projects-blocks-body {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 0px;
 }
 
 .projects-blocks:nth-child(2n) > .projects-blocks-text {
