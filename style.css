@@ -239,12 +239,13 @@ hr {
 }
 
 .aboutblock {
+  width: 45%;
   color: #fff;
-  font-size: 26px;
+  font-size: 24px;
   font-family: 'TildaSans',Arial,sans-serif;
   font-weight: 400;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 20px;
 }
