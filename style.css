@@ -427,7 +427,7 @@ hr {
 .person > .contacts > a > img {
   width: 18px;
   color: #fff;
-  filter: invert(100%);
+  filter: invert(100%); 
 }
 
   header > nav {
