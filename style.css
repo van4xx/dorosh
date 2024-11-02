@@ -356,7 +356,7 @@ writing-mode: vertical-lr; /* или vertical-lr для вертикальног
   .top > video {
     width: 100%;
     display: block;
-    margin-top: 16px;
+    margin-top: 24px;
     height: 180px;
   }
 
