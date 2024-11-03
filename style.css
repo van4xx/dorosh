@@ -297,16 +297,11 @@ footer > a {
   row-gap: 80px;
 }
 
-
 .projects-blocks > .projects-blocks-text {
-/* Стандартный синтаксис */
-writing-mode: vertical-lr; /* или vertical-lr для вертикального текста */
-
-/* Префиксы для поддержки устаревших браузеров */
--webkit-writing-mode: vertical-lr;
--moz-writing-mode: vertical-lr;
--ms-writing-mode: vertical-lr;
-
+  writing-mode: vertical-lr; /* или vertical-lr для вертикального текста */
+  -webkit-writing-mode: vertical-lr;
+  -moz-writing-mode: vertical-lr; 
+  -ms-writing-mode: vertical-lr;
   display: flex;
   justify-content: center;
   color: #ffffff;
